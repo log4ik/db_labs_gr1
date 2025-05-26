@@ -13,13 +13,13 @@
 <img src="./photos/user_update.png" alt="user was successfully updated">
 
 ## POST surveys:
-<img src="./photos/serveys_post.png" alt="survey was successfully created">
+<img src="./photos/servey_post.png" alt="survey was successfully created">
 
 ## GET surveys:
 <img src="./photos/surveys_get.png" alt="surveys were successfully getted">
 
 ## DELETE surveys:
-<img src="./photos/surveys_delete.png" alt="survey was successfully deleted">
+<img src="./photos/survey_delete.png" alt="survey was successfully deleted">
 
 ## POST responses:
 <img src="./photos/response_post.png" alt="response was successfully created">
