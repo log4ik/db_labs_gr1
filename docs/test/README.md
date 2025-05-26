@@ -9,13 +9,13 @@
 ## GET users/1:
 <img src="./photos/user_get.png" alt="users were successfully getted">
 
-## PUT users:
+## PUT users/1:
 <img src="./photos/user_update.png" alt="user was successfully updated">
 
 ## POST surveys:
 <img src="./photos/survey_post.png" alt="survey was successfully created">
 
-## GET surveys/1:
+## GET surveys:
 <img src="./photos/surveys_get.png" alt="surveys were successfully getted">
 
 ## DELETE surveys/1:
