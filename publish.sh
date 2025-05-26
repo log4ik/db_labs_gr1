@@ -20,6 +20,6 @@ git commit -m "Deploy to gh-pages"
 # git push -f git@github.com:boldak/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/gemonituer/db_labs_gr1 master:gh-pages
+git push -f https://github.com/log4ik/db_labs_gr1 master:gh-pages
 
 cd -
