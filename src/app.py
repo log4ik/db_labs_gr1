@@ -16,6 +16,7 @@ from resources.survey import SurveyListResource, SurveyResource
 from resources.question import QuestionListResource, QuestionResource
 from resources.response import ResponseListResource, ResponseResource
 from resources.answer import AnswerListResource, AnswerResource
+from resources.user import UserListResource, UserResource
 
 api.add_resource(SurveyListResource, '/surveys')
 api.add_resource(SurveyResource, '/surveys/<int:survey_id>')
@@ -28,6 +29,9 @@ api.add_resource(ResponseResource, '/responses/<int:response_id>')
 
 api.add_resource(AnswerListResource, '/answers')
 api.add_resource(AnswerResource, '/answers/<int:answer_id>')
+
+api.add_resource(UserListResource, '/users')
+api.add_resource(UserResource, '/users/<int:user_id>')
 
 @app.route('/')
 def index():
