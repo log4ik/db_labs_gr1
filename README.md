@@ -6,15 +6,7 @@
 
 ## Автори
 
-*студент 2-го курсу, групи ІО-35*<span padding-right:5em></span> **Роман ГУРЕНКО** [Telegram](https://t.me/romaaafr)
-
-*студент 2-го курсу, групи ІО-35*<span padding-right:5em></span> **Владислав КОМАР** [Telegram](https://t.me/selaghen)
-
-*студент 2-го курсу, групи ІО-35*<span padding-right:5em></span> **Роман ЛОГОВСЬКИЙ** [Telegram](https://t.me/fuckingroma)
-
-*студентка 2-го курсу, групи ІО-35*<span padding-right:5em></span> **Вікторія САБАДАШ** [Telegram](https://t.me/jssydhg)
-
-*студентка 2-го курсу, групи ІО-35*<span padding-right:5em></span> **Маргарита САХНО** [Telegram](https://t.me/wh0smarg0)
+*студент 2-го курсу, групи ІО-35*<span padding-right:5em></span> **Роман ЛОГОВСЬКИЙ** [Telegram](https://t.me/Roma_BRocker)
 
 ## Керівник
 
