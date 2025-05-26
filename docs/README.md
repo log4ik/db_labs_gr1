@@ -7,7 +7,7 @@ footer: "ECL 2.0 Licensed | Copyright © 2025 gemonituer"
 ---
 
 
-**Виконали:** 
+**Виконав:** 
 
 *студент 2-го курсу, групи ІО-35*<span padding-right:5em></span> **Роман ЛОГОВСЬКИЙ** [Telegram](https://t.me/Roma_BRocker)
 
