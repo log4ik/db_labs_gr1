@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 from flask_sqlalchemy import SQLAlchemy
+from models import db, User, Survey, Question, SurveyLink, Response, Answer
 
 app = Flask(__name__)
 api = Api(app)
@@ -8,9 +9,7 @@ api = Api(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///survey.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-db = SQLAlchemy(app)
-
-from models import User, Survey, Question, SurveyLink, Response, Answer
+db.init_app(app)
 
 from resources.survey import SurveyListResource, SurveyResource
 from resources.question import QuestionListResource, QuestionResource
