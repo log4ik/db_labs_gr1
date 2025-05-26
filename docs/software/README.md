@@ -370,22 +370,19 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 api = Api(app)
 
-# Налаштування бази даних (заміни URI при потребі)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///survey.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
-# Імпорт моделей
 from models import User, Survey, Question, SurveyLink, Response, Answer
 
-# Імпорт ресурсів
 from resources.survey import SurveyListResource, SurveyResource
 from resources.question import QuestionListResource, QuestionResource
 from resources.response import ResponseListResource, ResponseResource
 from resources.answer import AnswerListResource, AnswerResource
+from resources.user import UserListResource, UserResource
 
-# Маршрути REST API
 api.add_resource(SurveyListResource, '/surveys')
 api.add_resource(SurveyResource, '/surveys/<int:survey_id>')
 
@@ -398,7 +395,9 @@ api.add_resource(ResponseResource, '/responses/<int:response_id>')
 api.add_resource(AnswerListResource, '/answers')
 api.add_resource(AnswerResource, '/answers/<int:answer_id>')
 
-# Головна сторінка (опціонально)
+api.add_resource(UserListResource, '/users')
+api.add_resource(UserResource, '/users/<int:user_id>')
+
 @app.route('/')
 def index():
     return {'message': 'Survey API is working!'}
